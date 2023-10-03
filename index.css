@@ -32,6 +32,7 @@
 	/* Typography */
 	--bold-weight: 700;
 	--regular-weight: 400;
+	--letter-spacing--25: 0.25px;
 }
 
 *,

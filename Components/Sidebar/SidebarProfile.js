@@ -2,6 +2,7 @@ import { LitElement, html, css } from '../../lit.js';
 import DarkStyles from '../styles/DarkStyles.js';
 import DefaultStyles from '../styles/DefaultStyles.js';
 import SidebarButtonStyles from '../styles/SidebarButtonStyles.js';
+import '../styles/TypeStyles.js';
 
 class SidebarProfile extends LitElement {
 	static styles = [DarkStyles, DefaultStyles, SidebarButtonStyles];
@@ -32,7 +33,7 @@ class SidebarProfile extends LitElement {
 		return html`
 			<div @click=${this._switchToggle}>
 				${this.toggle ? this.svgOutline() : this.svgFilled()}
-				<p>profile</p>
+				<type-style class="size-20px regular">profile</type-style>
 			</div>
 		`;
 	}
