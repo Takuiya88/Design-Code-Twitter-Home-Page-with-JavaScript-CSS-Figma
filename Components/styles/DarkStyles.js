@@ -8,7 +8,6 @@ const DarkStyles = css`
 	:host(.dark) {
 		background-color: var(--transparent-0);
 		color: var(--gray-100);
-		text-transform: capitalize;
 	}
 	:host(.dark:hover) {
 		background-color: var(--transparent-10);

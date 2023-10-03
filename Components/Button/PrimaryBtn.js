@@ -4,8 +4,7 @@ import ButtonSizeStyles from './BtnSizeStyles.js';
 import ButtonBaseStyles from './BtnBaseStyles.js';
 
 class PrimaryButton extends LitElement {
-	static styles = [
-		ButtonThemes, ButtonSizeStyles, ButtonBaseStyles	];
+	static styles = [ButtonThemes, ButtonSizeStyles, ButtonBaseStyles];
 
 	static properties = {
 		buttonLabel: { type: String, attribute: 'label' }

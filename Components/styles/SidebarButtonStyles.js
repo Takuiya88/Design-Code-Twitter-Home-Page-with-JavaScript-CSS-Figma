@@ -19,7 +19,7 @@ const SidebarButtonStyles = css`
 			:host p {
 				padding: 0;
 				margin: 0;
-		text-transform: capitalize;
+				text-transform: capitalize;
 			}
 `;
 
