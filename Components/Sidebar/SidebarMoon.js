@@ -4,7 +4,7 @@ import DefaultStyles from '../styles/DefaultStyles.js';
 import SidebarButtonStyles from '../styles/SidebarButtonStyles.js';
 import '../styles/TypeStyles.js';
 class SidebarMoon extends LitElement {
-	static styles = [DarkStyles, DefaultStyles, SidebarButtonStyles];
+	static styles = [SidebarButtonStyles, DarkStyles, DefaultStyles];
 
 	static properties = {
 		toggle: { type: Boolean }

@@ -10,6 +10,7 @@ import './Components/Sidebar/SidebarProfile.js';
 import './Components/Sidebar/SidebarUsername.js';
 
 import './Components/Button/PrimaryBtn.js';
+import './Components/Dropdown/DropdownTopic.js';
 
 // Functions
 import themeSwitcher from './themeSwitcher.js';
