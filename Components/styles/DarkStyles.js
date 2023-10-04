@@ -3,7 +3,7 @@ import { css } from '../../lit.js';
 const DarkStyles = css`
 	/*  Dark Classes */
 	:host(.dark) svg path {
-		fill: var(--gray-100);
+		fill: white;
 	}
 	:host(.dark) {
 		background-color: var(--transparent-0);

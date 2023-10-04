@@ -1,5 +1,4 @@
 import { LitElement, html, css } from '../../lit.js';
-import '../styles/TypeStyles.js'
 
 class SidebarLogo extends LitElement {
 	static styles = [
@@ -12,7 +11,7 @@ class SidebarLogo extends LitElement {
 			}
 
 			:host(.default) svg path {
-				fill: var(--secondary-15);
+				fill: var(--primary-50);
 			}
 			:host(.dark) svg path {
 				fill: var(--gray-100);
