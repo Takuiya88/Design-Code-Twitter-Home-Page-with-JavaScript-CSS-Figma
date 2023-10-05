@@ -36,16 +36,26 @@
 
 			<footer>
 				<sidebar-username image="./image/Profile.png" username="Taku Where I am" account="@sampleTwitterUser" class="default"></sidebar-username>
-				<div class="default">
+				<div class="default dropdown-items dropdown-items--shadow hide">
 					<dropdown-topic class="default"></dropdown-topic>
 					<dropdown-topic class="default"></dropdown-topic>
 					<dropdown-topic class="default"></dropdown-topic>
 					<dropdown-topic class="default"></dropdown-topic>
+					<horizontal-divider class="default"></horizontal-divider>
+
 					<dropdown-topic class="default"></dropdown-topic>
 					<dropdown-topic class="default"></dropdown-topic>
 					<dropdown-topic class="default"></dropdown-topic>
 				</div>
+				<div class="default dropdown-username dropdown-items--shadow hide">
+					<dropdown-username image="./image/Profile.png" username="Taku Where I am" account="@sampleTwitterUser" class="default"></dropdown-username>
+					<horizontal-divider class="default"></horizontal-divider>
+					<dropdown-text label="Add new Account" class="default"></dropdown-text>
+					<dropdown-text label="Logout" class="default"></dropdown-text>
+				</div>
 			</footer>
 		</aside>
+
+		<vertical-divider class="default"></vertical-divider>
 	</body>
 </html>

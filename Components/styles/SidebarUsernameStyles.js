@@ -4,12 +4,13 @@ const SidebarUsername = css`
 	:host,
 	.username {
 		display: flex;
+		width: 320px;
 		align-items: center;
 		flex-basis: 100%;
 		gap: 16px;
 		border-radius: 100px;
+		cursor: pointer;
 		transition: all 100ms ease-out;
-		position: relative;
 	}
 
 	div {

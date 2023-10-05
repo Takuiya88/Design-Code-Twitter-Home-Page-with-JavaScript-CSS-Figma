@@ -1,0 +1,55 @@
+aside {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	gap: 16px;
+}
+
+aside header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+aside section {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 16px;
+}
+aside footer {
+	display: flex;
+	flex-grow: 1;
+	align-items: flex-end;
+	position: relative;
+}
+
+/* dropdown */
+.dropdown-items {
+	display: flex;
+	width: 320px;
+	flex-direction: column;
+
+	border-radius: 16px;
+	overflow: clip;
+
+	/* !Fix: I need to fix dropdown position after adding more component */
+	position: absolute;
+	bottom: 16%;
+	left: 80%;
+}
+
+.dropdown-username {
+	position: absolute;
+	left: 5%;
+	bottom: 16%;
+}
+
+.dropdown-items--shadow.default {
+	background: var(--gray-100);
+	box-shadow: var(--box-shadow--light);
+}
+.dropdown-items--shadow.dark {
+	background: var(--secondary-15);
+	box-shadow: var(--box-shadow--dark);
+}

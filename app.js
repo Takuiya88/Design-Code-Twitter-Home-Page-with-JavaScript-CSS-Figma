@@ -11,9 +11,15 @@ import './Components/Sidebar/SidebarUsername.js';
 
 import './Components/Button/PrimaryBtn.js';
 import './Components/Dropdown/DropdownTopic.js';
+import './Components/Dropdown/DropdownUsername.js';
+import './Components/Dropdown/DropdownText.js';
+
+import './Components/Divider/Divider.js';
+import './Components/Divider/VerticalDivider.js';
 
 // Functions
-import themeSwitcher from './themeSwitcher.js';
+import themeSwitcher from './js/themeSwitcher.js';
+import toggleSideDropDown from './js/toggleSideDropDown.js';
 
 // Grab body default shadow doms, moon icon
 const moonIcon = document.querySelector('sidebar-moon');
@@ -26,6 +32,9 @@ const body = document.querySelector('body');
 moonIcon.addEventListener('click', () => {
 	themeSwitcher(body, defaultElements);
 });
+
+// Dropdowm
+toggleSideDropDown();
 
 // Default background when first loading.
 window.addEventListener('DOMContentLoaded', () => {
