@@ -19,5 +19,4 @@ class DropdownTopic extends LitElement {
 	}
 }
 
-
-customElements.define('dropdown-topic', DropdownTopic)
+customElements.define('dropdown-topic', DropdownTopic);

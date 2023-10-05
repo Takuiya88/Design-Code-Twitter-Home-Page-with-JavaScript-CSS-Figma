@@ -9,6 +9,7 @@ const SidebarUsername = css`
 		gap: 16px;
 		border-radius: 100px;
 		transition: all 100ms ease-out;
+		position: relative;
 	}
 
 	div {

@@ -33,6 +33,10 @@
 	--bold-weight: 700;
 	--regular-weight: 400;
 	--letter-spacing--25: 0.25px;
+
+	/* Box shadow */
+	--box-shadow--light: 0px 0px 20px 1px hsla(205, 40%, 40%, 0.08);
+	--box-shadow--dark: 0px 0px 20px 1px hsla(206, 41%, 10%, 0.35);
 }
 
 *,
@@ -85,4 +89,29 @@ aside footer {
 	display: flex;
 	flex-grow: 1;
 	align-items: flex-end;
+	position: relative;
+}
+
+/* dropdown */
+aside footer div {
+	display: flex;
+	width: 320px;
+	flex-direction: column;
+
+	border-radius: 16px;
+	overflow: clip;
+
+	/* !Fix: I need to fix dropdown position after adding more component */
+	position: absolute;
+	left: 240px;
+	bottom: 90px;
+}
+
+aside footer div.default {
+	background: var(--gray-100);
+	box-shadow: var(--box-shadow--light);
+}
+aside footer div.dark {
+	background: var(--secondary-15);
+	box-shadow: var(--box-shadow--dark);
 }
